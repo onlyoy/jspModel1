@@ -5,7 +5,7 @@
 
 <%
 	String id = request.getParameter("id");
-String pwd = request.getParameter("pwd");
+	String pwd = request.getParameter("pwd");
 	
 	MemberDao dao = MemberDao.getInstance();
 	
@@ -21,6 +21,7 @@ String pwd = request.getParameter("pwd");
 		%>
 			<script type="text/javascript">
 			alert("환영합니다. <%=mem.getId() %>님");
+			location.href = "bbslist.jsp"
 			</script>
 
 		<% 

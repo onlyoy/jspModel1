@@ -6,4 +6,4 @@
 // 로그인 화면으로 이동
 location.href = "login.jsp";
 
-</script>	
+</script>
